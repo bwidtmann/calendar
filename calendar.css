@@ -1,0 +1,34 @@
+.calendar {
+    position: relative;
+    float: left;
+	width: 600px;
+	height: 720px;
+	padding: 0 10px;
+	background-color: #eeeeee;
+}
+.event  {
+    margin: 0 10px;
+	background-color: #ffffff;
+	border: 1px solid #000000;
+	border-left: 4px solid #4B6EA8;
+	position: absolute;
+}
+.event p {
+    padding: 0;
+    margin: 2px;
+    color: #4B6EA8;
+    font-weight: bold;
+}
+.time_line ol {
+	float: left;
+	padding: 0;
+	margin: -10px 5px 0 0;
+    text-align: right;
+    list-style: none;
+}
+.time_line li {
+	height: 30px;
+}
+.time_line span {
+	font-weight: bold;
+}
